@@ -1,9 +1,8 @@
 import sublime, sublime_plugin
 import os, tempfile, subprocess
 
-
 def load_settings():
-    return sublime.load_settings("SublimePhpCsFixer.sublime-settings")
+return sublime.load_settings("SublimePhpCsFixer.sublime-settings")
 
 
 def setting_enabled(name):
